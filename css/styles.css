@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-cabecera{
+    background-color: #3001ff;
+}
+
+.contenedor-cabecera nav{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-cabecera nav ul{
+    display: flex;
+    
+}
+
+.contenedor-cabecera nav ul li a{
+    color: #fff;
+}
