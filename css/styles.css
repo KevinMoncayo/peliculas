@@ -129,12 +129,51 @@
     flex-direction: column;
     
     h2{
-        color:#77987C;
+        color:var(--secondary-color);
         text-align: center;
         margin: 0 auto;
         width: 50%;
         font-size: 3rem;
         margin-bottom: 5vh;
     }
+}
+
+.contenedor_lista_peliculas{
+    background-color: var(--fourth-color);
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+
+    h2{
+        color:var(--secondary-color);
+        text-align: center;
+        margin: 0 auto;
+        width: 50%;
+        font-size: 3rem;
+        margin-top: 12vh;
+        margin-bottom: 5vh;
+
+    }
+
+    .grilla{
+
+        background-color: var(--fifth-color);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+
+        .contenedor_pelicula{
+            background-color: var(--main-color);
+            border: 1px solid var(--fifth-color);
+            width: 200px;
+            height: 300px;
+            margin: 10vh auto;
+    
+        }
+    }
+
+    
 }
 
